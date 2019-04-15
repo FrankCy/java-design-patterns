@@ -13,7 +13,7 @@ package com.frank.dp.proxy.service;
 public interface BuySpicyStrips {
 
     /**
-     * @description：
+     * @description：买辣条
      * @version 1.0
      * @author: Yang.Chang
      * @email: cy880708@163.com

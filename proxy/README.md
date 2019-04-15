@@ -9,7 +9,7 @@
 - BuySpicyStripsTest 测试类<br/>
 
 执行结果
-```java
+```shell
 Frank 正在商店!
 店长到辣条厂家进货。
 店长买到辣条。
@@ -24,10 +24,11 @@ Frank 买到辣条正在去送给 Nancy !
 - PrinterTest 测试类<br/>
 
 执行结果
-```java
-Frank 正在商店!
-店长到辣条厂家进货。
-店长买到辣条。
-店长正在零售。
-Frank 买到辣条正在去送给 Nancy !
+```shell
+现在的名字是：Alice.
+现在的名字是：Bob.
+正在生成 Printer 的实例(Bob)....Disconnected from the target VM, address: '127.0.0.1:61575', transport: 'socket'
+.结束。
+ === Bob ===
+Hello, World.
 ```
