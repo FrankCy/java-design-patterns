@@ -17,7 +17,10 @@ import com.frank.dp.proxy.service.BuySpicyStrips;
 public class BuySpicyStripsTest {
 
     public static void main(String[] args) {
-        BuySpicyStrips buy = new Friend(new Shopowner());
+        // 老板买辣条（代理买辣条）
+//        BuySpicyStrips buy = new Friend(new Shopowner());
+        // 自己买辣条（不用老板）
+        BuySpicyStrips buy = new Friend(null);
         buy.buySpicyStrips();
     }
 

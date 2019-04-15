@@ -27,7 +27,11 @@ public class Friend implements BuySpicyStrips {
     @Override
     public void buySpicyStrips() {
         goShopping();
-        buySpicyStrips.buySpicyStrips();
+        if (buySpicyStrips == null) {
+            System.out.println("Frank 自己买辣条，不用代理买!");
+        } else {
+            buySpicyStrips.buySpicyStrips();
+        }
         delivery();
     }
 
