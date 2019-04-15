@@ -24,6 +24,9 @@ public class PrinterProxy implements Printable {
      */
     private Printer real;
 
+    public PrinterProxy() {
+    }
+
     /**
      * 构造函数
      * @param name
