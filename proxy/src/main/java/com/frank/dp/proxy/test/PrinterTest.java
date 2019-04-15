@@ -16,9 +16,12 @@ import com.frank.dp.proxy.service.Printable;
 public class PrinterTest {
     public static void main(String[] args) {
         Printable p = new PrinterProxy("Alice");
+        // 获取打印机名并打印
         System.out.println("现在的名字是：" + p.getPrinterName() + ".");
+        // 重新设置打印机名
         p.setPrinterName("Bob");
         System.out.println("现在的名字是：" + p.getPrinterName() + ".");
+        // 显示打印内容，调用的时候Printer实例才被生成。
         p.print("Hello, World.");
     }
 }
