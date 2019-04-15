@@ -16,3 +16,18 @@ Frank 正在商店!
 店长正在零售。
 Frank 买到辣条正在去送给 Nancy !
 ```
+
+### 打印机例子 ###
+- Printer 表示带名字的打印机的类（本人）
+- Printable Printer 和 PrinterProxy 的共同接口
+- printerProxy 表示带名字的打印机的类（代理人）
+- PrinterTest 测试类<br/>
+
+执行结果
+```java
+Frank 正在商店!
+店长到辣条厂家进货。
+店长买到辣条。
+店长正在零售。
+Frank 买到辣条正在去送给 Nancy !
+```
