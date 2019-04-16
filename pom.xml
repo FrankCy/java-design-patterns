@@ -11,6 +11,7 @@
     <modules>
         <module>proxy</module>
         <module>flyweight</module>
+        <module>singleton</module>
     </modules>
 
     <parent>
