@@ -18,11 +18,14 @@ import com.frank.dp.observer.service.Observer;
  */
 public class Main {
     public static void main(String[] args) {
+        // 通过观察角色获取具体的观察者
         NumberGenerator generator = new RandomNumberGenerator();
         Observer observer1 = new DigitObserver();
         Observer observer2 = new GraphObserver();
+        // 通过addObserver方法注册多个Observer
         generator.addObserver(observer1);
         generator.addObserver(observer2);
+        // 执行具体观察者execute函数，向所有的Observer发送通知
         generator.execute();
     }
 }
