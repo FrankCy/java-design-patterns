@@ -6,7 +6,7 @@ import java.util.Random;
 
 /**
  * @version 1.0
- * @description：
+ * @description：具体观察对象
  * @author: Yang.Chang
  * @project: java-design-patterns
  * @package: com.frank.dp.observer.impl、

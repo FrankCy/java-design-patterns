@@ -4,7 +4,7 @@ import com.frank.dp.observer.core.NumberGenerator;
 
 /**
  * @version 1.0
- * @description：
+ * @description：观察者
  * @author: Yang.Chang
  * @project: java-design-patterns
  * @package: com.frank.dp.observer.service、

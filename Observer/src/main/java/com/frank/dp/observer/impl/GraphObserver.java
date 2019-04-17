@@ -5,7 +5,7 @@ import com.frank.dp.observer.service.Observer;
 
 /**
  * @version 1.0
- * @description：
+ * @description：具体观察者
  * @author: Yang.Chang
  * @project: java-design-patterns
  * @package: com.frank.dp.observer.impl、
@@ -20,7 +20,7 @@ public class GraphObserver implements Observer {
         int count = generator.getNumber();
 
         for(int i=0; i<count; i++) {
-            System.out.println("*");
+            System.out.print("*");
         }
 
         System.out.println("");

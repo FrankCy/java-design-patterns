@@ -7,7 +7,7 @@ import java.util.Iterator;
 
 /**
  * @version 1.0
- * @description：
+ * @description：观察角色
  * @author: Yang.Chang
  * @project: java-design-patterns
  * @package: com.frank.dp.observer.core、
