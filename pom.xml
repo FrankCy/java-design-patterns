@@ -12,6 +12,7 @@
         <module>proxy</module>
         <module>flyweight</module>
         <module>singleton</module>
+        <module>Observer</module>
     </modules>
 
     <parent>
