@@ -13,6 +13,7 @@
         <module>flyweight</module>
         <module>singleton</module>
         <module>observer</module>
+        <module>decorator</module>
     </modules>
 
     <parent>
