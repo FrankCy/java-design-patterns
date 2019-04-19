@@ -14,6 +14,7 @@
         <module>singleton</module>
         <module>observer</module>
         <module>decorator</module>
+        <module>basic</module>
     </modules>
 
     <parent>
