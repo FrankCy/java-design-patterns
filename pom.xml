@@ -15,6 +15,7 @@
         <module>observer</module>
         <module>decorator</module>
         <module>basic</module>
+        <module>strategy</module>
     </modules>
 
     <parent>
